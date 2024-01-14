@@ -1,0 +1,99 @@
+
+#nbar{
+background-color: rgb(0, 59, 99);
+border: 5px;
+border-radius: 12px;
+
+}
+ul{
+  
+    text-decoration: none;  /* Remove underline */
+
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+    color: #fff6c5;
+    font-size: 20px;
+    padding: 10px;
+  justify-content: center;
+align-items: center;
+}
+li:hover{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+    color: #170057;
+    font-size: 25px;
+    padding: 10px;
+    background-color: white;
+    border: 10px;
+    border-radius: 0px 14px 0px 14px;
+
+
+}
+
+
+ul li a {
+    text-decoration: none;  /* Remove underline */
+    color: #ffffff;            /* Set text color */
+  }
+  
+  ul li a:hover {
+    color: #333;            /* Change color on hover */
+  }
+
+
+
+
+
+
+.container {
+    display: flex;  /* Use flexbox for flexible layout */
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: center;  /* Centers the content vertically */
+  }
+  
+  /* Optional styling for spacing and alignment */
+  .container img {
+    
+    height: 70px;
+    width: 100px;
+    margin-right: 30px;  /* Add some space between the image and text */
+  }
+
+  .container2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;  /* Use flexbox for flexible layout */
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: center;  /* Centers the content vertically */
+  }
+  .btnDin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;  /* Use flexbox for flexible layout */
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: center;  /* Centers the content vertically */
+  }
+  .btnDin button{
+ 
+    background-color: #170057;
+    padding: 10px;
+    color: #ffffff;
+    border: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+  }
+  .btnDin button:hover{
+ 
+    background-color: #321680;
+    padding: 15px;
+    color: #ffffff;
+    border: 5px;
+    border-radius: 15px;
+    font-size: 20px;
+    
+  }
